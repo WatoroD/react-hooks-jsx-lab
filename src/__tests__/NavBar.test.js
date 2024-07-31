@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-
+import About from '../components/About';
 import NavBar from "../components/NavBar";
 
 test("renders a <nav> element", () => {
